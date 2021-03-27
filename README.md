@@ -25,3 +25,13 @@ The use case of the project is **Time To Collision (TTC)** detection which requi
 3. ORB - BRIEF.
 
 Detailed report can be found in [performance_report.pdf](report/performance_report.pdf) and the realted data & graphs can be found in [performance_report.ods](report/performance_report.ods).
+
+## Usage
+
+If you want to use the file to run the detetion yourself you can use the following command
+
+`./2D_feature_tracking <Detector_name> <Descriptor_name>`
+
+For example, to use the FAST detector with the BRIEF descriptor, you can use the following command,
+
+`./2D_feature_tracking FAST BRIEF`
